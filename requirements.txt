@@ -1,0 +1,6 @@
+plotext==5.2.8
+ply==3.11
+pyasn1==0.4.8
+pycryptodomex==3.18.0
+pysmi==0.3.4
+pysnmp==4.4.12
