@@ -42,7 +42,6 @@ if __name__ == "__main__":
 
     while True:
         try:
-            #data.append(get_snmpv2_call_legs(community, host, oid))  # Get the SNMP value
             data.append(get_snmpv2_call_legs(args.c, args.a, args.o))  # Get the SNMP value
             times.append(datetime.now().strftime("%H:%M:%S"))  # Collect a list of strings for time format
             end = plt.today_datetime()
